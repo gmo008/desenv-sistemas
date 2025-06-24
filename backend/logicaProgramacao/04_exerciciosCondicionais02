@@ -1,0 +1,7 @@
+valor1 =int(input("digite seu valor:"))
+valor2 =int(input("digite seu valor:"))
+
+if(valor1 > valor2):
+    print("valor1 é maior", valor1)
+elif(valor1 < valor2):
+    print("valor2 é maior", valor2)
