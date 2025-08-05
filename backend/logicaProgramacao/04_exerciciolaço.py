@@ -1,5 +1,17 @@
-pedir nome e senha ao usuario 
-mostrar "bem vindo" quando acertar a senha e o nome.
-apos, pedir o salario do usuario 
-mostrar salario anual
-se o salario anual for maior que 100 mil mostrar mensagem "rico"
+senhacorreta = input("digite a senha correta")
+senha = input("digite a senha")
+nome = input("digite o seu nome")
+salario = float(input("digite seu salario"))
+
+while senha!= senhacorreta:
+    print("senha incorreta")
+    senha = input("digite a senha novamente")
+
+    print("Bem-vindo", nome)
+
+    salarioanual = salario * 12
+
+    if(salarioanual > 100000):
+        print("rico")
+    else:
+        print("faz o l")
