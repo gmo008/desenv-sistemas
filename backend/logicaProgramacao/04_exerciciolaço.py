@@ -1,3 +1,4 @@
+
 senhacorreta = input("digite a senha correta")
 senha = input("digite a senha")
 nome = input("digite o seu nome")

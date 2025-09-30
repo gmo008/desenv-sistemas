@@ -1,0 +1,8 @@
+[
+    {
+        "nome": "bota",
+        "quantidade": 5,
+        "preco": 25.0,
+        "em_estoque": true
+    }
+]
